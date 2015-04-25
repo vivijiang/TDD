@@ -10,14 +10,13 @@ Prime.getPrime = function(inputNumber) {
     }
 
     var number = inputNumber;
+    var factor;
     while (number > 1) {
-        if (number % 2 === 0) {
-            result.push(2);
-            number = number / 2;
-        } else if (number % 3 === 0) {
-            result.push(3);
-            number = number / 3;
-        }
+        factor = 2;
+        if (number % factor === 0) {
+            result.push(factor);
+            number = number / factor;
+        } 
     }
     return result;
 };
