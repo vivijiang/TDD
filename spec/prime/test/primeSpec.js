@@ -20,4 +20,10 @@ describe("Prime", function() {
         expect(result).toEqual([2, 2]);
     })
 
+    it('should return [5]', function() {
+        var sourceNumber = 5;
+        var result = Prime.getPrime(sourceNumber);
+        expect(result).toEqual([5]);
+    })
+
 });
