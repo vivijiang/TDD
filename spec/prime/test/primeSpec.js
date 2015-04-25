@@ -14,4 +14,10 @@ describe("Prime", function() {
         expect(result).toEqual([2]);
     })
 
+    it('should return [2,2]', function() {
+        var sourceNumber = 4;
+        var result = Prime.getPrime(sourceNumber);
+        expect(result).toEqual([2, 2]);
+    })
+
 });
