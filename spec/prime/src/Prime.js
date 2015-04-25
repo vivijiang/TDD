@@ -1,8 +1,8 @@
-function Prime() {}
-Prime.prototype.isPrime = function(inputNumber) {
+var Prime = {};
+Prime.isPrime = function(inputNumber) {
     /* body... */
 };
-Prime.prototype.getPrime = function(inputNumber) {
+Prime.getPrime = function(inputNumber) {
     if (inputNumber === 1) {
         return [1];
     }
