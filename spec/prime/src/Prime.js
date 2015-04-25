@@ -4,7 +4,7 @@ Prime.isPrime = function(inputNumber) {
 };
 Prime.getPrime = function(inputNumber) {
     var result = [];
-    if (inputNumber === 1 || inputNumber === 3) {
+    if (inputNumber === 1) {
         result.push(inputNumber);
         return result;
     }
